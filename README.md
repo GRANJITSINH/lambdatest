@@ -6,4 +6,5 @@ Lambdatest Python Selenium 101 certification
 * create pageObjects
 * create testCases package and add conftest.py in it
 * now start adding the testcases
+* generate the report in testcases folder
 
