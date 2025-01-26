@@ -1,4 +1,4 @@
-from selenium.webdriver.common.by import by
+from selenium.webdriver.common.by import By
 
 class HomePage():
     lnk_simple_form_xpath = "//a[normalize-space()='Simple Form Demo']"
