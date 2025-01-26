@@ -18,6 +18,7 @@ class HomePage():
     
     def input_message_box(self):
         item = self.driver.find_element(By.XPATH, self.lnk_simple_form_input_message)
+        return item
 
     def click_get_checked_value(self):
         self.driver.find_element(By.XPATH, self.lnk_get_checked_value).click()
