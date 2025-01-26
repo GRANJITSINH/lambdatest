@@ -33,7 +33,7 @@ class HomePage():
     def get_default_value_15_slider(self):
         return self.driver.find_element(By.XPATH, self.lnk_default_value_15_slider)
     
-    def lnk_input_form_submit(self):
+    def input_form_submit(self):
         self.driver.find_element(By.XPATH, self.lnk_input_form_submit).click()
     
     def submit_form(self):
